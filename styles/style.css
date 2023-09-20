@@ -1,0 +1,47 @@
+/*Style*/
+body{
+    background-color:#F8F0E5;
+    color:dimgrey;
+    
+}
+h1{
+    background-color: dimgrey;
+    padding: 20px;
+    color:#F8F0E5;
+    text-align: center;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    color:#0F2C59;
+}
+
+img{
+    width: 20%;
+    box-shadow: 5px 10px #DAC0A3;
+}
+#mainPhoto {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color:  #0F2C59;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #9A3B3B;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #DAC0A3;
+  }
