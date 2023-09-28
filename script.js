@@ -16,7 +16,7 @@ function sendEmail(event){
   let userEmail=document.getElementById("userEmail").value;
   let userMessage=document.getElementById("userMessage").value;
   
-  let theMessage = "Thank you, "+ userFName + " " + userLName+ " Your Massage: "+ userMessage+ " sent. We will contact you by the emai" + userEmail;
+  let theMessage = "Thank you, "+ userFName + " " + userLName+ " Your Massage: "+ userMessage+ " sent. We will contact you by the email: " + userEmail;
   console.log(theMessage);
   window.alert(theMessage);
 }
